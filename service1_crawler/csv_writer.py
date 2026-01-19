@@ -1,5 +1,6 @@
 import csv
 import os
+import requests
 from datetime import datetime
 from supabase import create_client
 
@@ -45,3 +46,36 @@ def write_csv_and_upload(data: list[dict]) -> str:
 
     print(f"[BUCKET] CSV enviado: {bucket_name}/{bucket_path}")
     return bucket_path
+
+
+# -------------------------
+# MAIN DO CRAWLER
+# -------------------------
+
+def main():
+    # 🔹 aqui assumes que já tens os dados
+    # 🔹 isto é só exemplo; a tua lógica real mantém-se
+    data = [
+        {"local_id": 1, "pais": "Portugal", "custo_vida_index": 67.3},
+        {"local_id": 2, "pais": "Espanha", "custo_vida_index": 62.1},
+    ]
+
+    bucket_path = write_csv_and_upload(data)
+
+    # 🔔 WAKE-UP DO PROCESSADOR DE DADOS (opcional, seguro)
+    pd_wakeup_url = os.getenv("PD_WAKEUP_URL")
+
+    if pd_wakeup_url:
+        try:
+            requests.post(pd_wakeup_url, timeout=5)
+            print("[CRAWLER] Processador de Dados acordado com sucesso")
+        except Exception as e:
+            print(f"[CRAWLER] Falha ao acordar Processador de Dados: {e}")
+    else:
+        print("[CRAWLER] PD_WAKEUP_URL não definida (wake-up ignorado)")
+
+    return bucket_path
+
+
+if __name__ == "__main__":
+    main()
