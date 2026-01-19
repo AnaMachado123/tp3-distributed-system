@@ -70,7 +70,7 @@ class Worker(threading.Thread):
             raise RuntimeError("Download falhou ou CSV vazio")
 
         # -------------------------
-        # leitura em stream + API
+        # leitura em stream + API externa
         # -------------------------
         enriched_rows = []
 
@@ -95,22 +95,36 @@ class Worker(threading.Thread):
         )
 
         # -------------------------
-        # upload para bucket de saída
+        # upload para bucket processed
         # -------------------------
-        remote_path = f"{os.path.dirname(file_path)}/{output_filename}".replace("\\", "/")
-
+        remote_path = (
+            f"{os.path.dirname(file_path)}/{output_filename}"
+            .replace("\\", "/")
+        )
 
         print(
             f"[WORKER {self.worker_id}] upload -> "
             f"{self.storage.output_bucket}/{remote_path}"
         )
 
-        self.storage.upload_processed_file(
-            local_path=output_csv,
-            remote_path=remote_path
-        )
+        try:
+            self.storage.upload_processed_file(
+                local_path=output_csv,
+                remote_path=remote_path
+            )
 
-        print(
-            f"[WORKER {self.worker_id}] "
-            f"CSV enviado para bucket processed"
-        )
+            print(
+                f"[WORKER {self.worker_id}] "
+                f"CSV enviado para bucket processed"
+            )
+
+        except Exception as e:
+            # tratamento de idempotência (409 Duplicate)
+            if "Duplicate" in str(e) or "409" in str(e):
+                print(
+                    f"[WORKER {self.worker_id}] "
+                    f"CSV já existe no bucket processed (ignorado)"
+                )
+            else:
+                # erro real → propaga
+                raise
