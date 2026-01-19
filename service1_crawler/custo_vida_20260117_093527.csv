@@ -1,0 +1,2041 @@
+local_id,pais,custo_vida_index
+L001_v0,Switzerland,98.4
+L002_v0,United States Virgin Islands,98.4
+L003_v0,Iceland,83.4
+L004_v0,Bahamas,81.4
+L005_v0,Singapore,79.1
+L006_v0,Hong Kong,73.6
+L007_v0,Barbados,70.0
+L008_v0,Norway,69.0
+L009_v0,Papua New Guinea,67.4
+L010_v0,Denmark,66.9
+L011_v0,Guernsey,66.1
+L012_v0,Israel,65.2
+L013_v0,United States,64.9
+L014_v0,Luxembourg,64.8
+L015_v0,Australia,60.9
+L016_v0,Austria,60.7
+L017_v0,Netherlands,60.5
+L018_v0,Ireland,59.8
+L019_v0,United Kingdom,59.2
+L020_v0,Canada,58.7
+L021_v0,Finland,58.7
+L022_v0,Puerto Rico,58.7
+L023_v0,Germany,58.4
+L024_v0,France,58.0
+L025_v0,Macau,56.8
+L026_v0,South Korea,56.5
+L027_v0,Belgium,56.5
+L028_v0,New Zealand,55.3
+L029_v0,Sweden,54.2
+L030_v0,United Arab Emirates,54.1
+L031_v0,Italy,51.0
+L032_v0,Jamaica,50.3
+L033_v0,Costa Rica,50.1
+L034_v0,Cyprus,49.5
+L035_v0,Estonia,49.4
+L036_v0,Yemen,48.4
+L037_v0,Bahrain,48.3
+L038_v0,Malta,48.0
+L039_v0,Qatar,47.5
+L040_v0,Greece,46.5
+L041_v0,Uruguay,46.3
+L042_v0,Slovenia,46.2
+L043_v0,Japan,45.6
+L044_v0,Maldives,45.3
+L045_v0,Taiwan,44.4
+L046_v0,Brunei,44.4
+L047_v0,Lithuania,44.0
+L048_v0,Panama,43.9
+L049_v0,Spain,43.5
+L050_v0,Latvia,43.4
+L051_v0,Ethiopia,43.2
+L052_v0,Croatia,43.2
+L053_v0,Czechia,42.6
+L054_v0,Slovakia,42.1
+L055_v0,Saudi Arabia,41.9
+L056_v0,Belize,41.4
+L057_v0,Portugal,41.2
+L058_v0,Cuba,40.8
+L059_v0,Kuwait,40.4
+L060_v0,Albania,39.9
+L061_v0,Oman,39.8
+L062_v0,Armenia,39.6
+L063_v0,Palestine,39.5
+L064_v0,Botswana,39.5
+L065_v0,Poland,38.9
+L066_v0,Mozambique,38.9
+L067_v0,Ivory Coast,38.8
+L068_v0,Lebanon,38.8
+L069_v0,Somalia,38.7
+L070_v0,El Salvador,37.9
+L071_v0,Jordan,37.2
+L072_v0,Guatemala,36.8
+L073_v0,Hungary,36.6
+L074_v0,Montenegro,36.3
+L075_v0,Cameroon,36.2
+L076_v0,Venezuela,35.9
+L077_v0,Serbia,35.9
+L078_v0,Argentina,35.7
+L079_v0,Mauritius,35.6
+L080_v0,Bulgaria,35.4
+L081_v0,Chile,35.1
+L082_v0,Turkey,34.7
+L083_v0,Zimbabwe,34.7
+L084_v0,Rwanda,34.6
+L085_v0,Honduras,34.6
+L086_v0,Mexico,34.5
+L087_v0,Dominican Republic,34.3
+L088_v0,Romania,34.0
+L089_v0,Cambodia,33.9
+L090_v0,Zambia,33.8
+L091_v0,Thailand,33.7
+L092_v0,Sri Lanka,33.5
+L093_v0,Fiji,32.0
+L094_v0,Tanzania,31.8
+L095_v0,Moldova,30.8
+L096_v0,China,30.7
+L097_v0,Ghana,30.6
+L098_v0,Mongolia,30.6
+L099_v0,Georgia,30.4
+L100_v0,North Macedonia,30.3
+L101_v0,South Africa,30.0
+L102_v0,Ecuador,30.0
+L103_v0,Malaysia,29.7
+L104_v0,Azerbaijan,29.5
+L105_v0,Peru,29.4
+L106_v0,Namibia,29.3
+L107_v0,Philippines,28.8
+L108_v0,Kenya,28.2
+L109_v0,Morocco,27.2
+L110_v0,Iraq,26.9
+L111_v0,Vietnam,26.6
+L112_v0,Kazakhstan,26.6
+L113_v0,Nigeria,26.4
+L114_v0,Colombia,26.0
+L115_v0,Uganda,26.0
+L116_v0,Brazil,25.6
+L117_v0,Tunisia,25.5
+L118_v0,Kyrgyzstan,25.4
+L119_v0,Bolivia,25.2
+L120_v0,Belarus,25.0
+L121_v0,Indonesia,24.6
+L122_v0,Ukraine,24.6
+L123_v0,Algeria,24.5
+L124_v0,Uzbekistan,24.2
+L125_v0,Iran,23.6
+L126_v0,Syria,23.3
+L127_v0,Nepal,23.0
+L128_v0,Paraguay,23.0
+L129_v0,Russia,22.3
+L130_v0,Bangladesh,20.9
+L131_v0,Madagascar,20.7
+L132_v0,Afghanistan,19.9
+L133_v0,India,19.5
+L134_v0,Egypt,19.0
+L135_v0,Libya,18.6
+L136_v0,Pakistan,17.8
+L001_v1,Switzerland,98.4
+L002_v1,United States Virgin Islands,98.4
+L003_v1,Iceland,83.4
+L004_v1,Bahamas,81.4
+L005_v1,Singapore,79.1
+L006_v1,Hong Kong,73.6
+L007_v1,Barbados,70.0
+L008_v1,Norway,69.0
+L009_v1,Papua New Guinea,67.4
+L010_v1,Denmark,66.9
+L011_v1,Guernsey,66.1
+L012_v1,Israel,65.2
+L013_v1,United States,64.9
+L014_v1,Luxembourg,64.8
+L015_v1,Australia,60.9
+L016_v1,Austria,60.7
+L017_v1,Netherlands,60.5
+L018_v1,Ireland,59.8
+L019_v1,United Kingdom,59.2
+L020_v1,Canada,58.7
+L021_v1,Finland,58.7
+L022_v1,Puerto Rico,58.7
+L023_v1,Germany,58.4
+L024_v1,France,58.0
+L025_v1,Macau,56.8
+L026_v1,South Korea,56.5
+L027_v1,Belgium,56.5
+L028_v1,New Zealand,55.3
+L029_v1,Sweden,54.2
+L030_v1,United Arab Emirates,54.1
+L031_v1,Italy,51.0
+L032_v1,Jamaica,50.3
+L033_v1,Costa Rica,50.1
+L034_v1,Cyprus,49.5
+L035_v1,Estonia,49.4
+L036_v1,Yemen,48.4
+L037_v1,Bahrain,48.3
+L038_v1,Malta,48.0
+L039_v1,Qatar,47.5
+L040_v1,Greece,46.5
+L041_v1,Uruguay,46.3
+L042_v1,Slovenia,46.2
+L043_v1,Japan,45.6
+L044_v1,Maldives,45.3
+L045_v1,Taiwan,44.4
+L046_v1,Brunei,44.4
+L047_v1,Lithuania,44.0
+L048_v1,Panama,43.9
+L049_v1,Spain,43.5
+L050_v1,Latvia,43.4
+L051_v1,Ethiopia,43.2
+L052_v1,Croatia,43.2
+L053_v1,Czechia,42.6
+L054_v1,Slovakia,42.1
+L055_v1,Saudi Arabia,41.9
+L056_v1,Belize,41.4
+L057_v1,Portugal,41.2
+L058_v1,Cuba,40.8
+L059_v1,Kuwait,40.4
+L060_v1,Albania,39.9
+L061_v1,Oman,39.8
+L062_v1,Armenia,39.6
+L063_v1,Palestine,39.5
+L064_v1,Botswana,39.5
+L065_v1,Poland,38.9
+L066_v1,Mozambique,38.9
+L067_v1,Ivory Coast,38.8
+L068_v1,Lebanon,38.8
+L069_v1,Somalia,38.7
+L070_v1,El Salvador,37.9
+L071_v1,Jordan,37.2
+L072_v1,Guatemala,36.8
+L073_v1,Hungary,36.6
+L074_v1,Montenegro,36.3
+L075_v1,Cameroon,36.2
+L076_v1,Venezuela,35.9
+L077_v1,Serbia,35.9
+L078_v1,Argentina,35.7
+L079_v1,Mauritius,35.6
+L080_v1,Bulgaria,35.4
+L081_v1,Chile,35.1
+L082_v1,Turkey,34.7
+L083_v1,Zimbabwe,34.7
+L084_v1,Rwanda,34.6
+L085_v1,Honduras,34.6
+L086_v1,Mexico,34.5
+L087_v1,Dominican Republic,34.3
+L088_v1,Romania,34.0
+L089_v1,Cambodia,33.9
+L090_v1,Zambia,33.8
+L091_v1,Thailand,33.7
+L092_v1,Sri Lanka,33.5
+L093_v1,Fiji,32.0
+L094_v1,Tanzania,31.8
+L095_v1,Moldova,30.8
+L096_v1,China,30.7
+L097_v1,Ghana,30.6
+L098_v1,Mongolia,30.6
+L099_v1,Georgia,30.4
+L100_v1,North Macedonia,30.3
+L101_v1,South Africa,30.0
+L102_v1,Ecuador,30.0
+L103_v1,Malaysia,29.7
+L104_v1,Azerbaijan,29.5
+L105_v1,Peru,29.4
+L106_v1,Namibia,29.3
+L107_v1,Philippines,28.8
+L108_v1,Kenya,28.2
+L109_v1,Morocco,27.2
+L110_v1,Iraq,26.9
+L111_v1,Vietnam,26.6
+L112_v1,Kazakhstan,26.6
+L113_v1,Nigeria,26.4
+L114_v1,Colombia,26.0
+L115_v1,Uganda,26.0
+L116_v1,Brazil,25.6
+L117_v1,Tunisia,25.5
+L118_v1,Kyrgyzstan,25.4
+L119_v1,Bolivia,25.2
+L120_v1,Belarus,25.0
+L121_v1,Indonesia,24.6
+L122_v1,Ukraine,24.6
+L123_v1,Algeria,24.5
+L124_v1,Uzbekistan,24.2
+L125_v1,Iran,23.6
+L126_v1,Syria,23.3
+L127_v1,Nepal,23.0
+L128_v1,Paraguay,23.0
+L129_v1,Russia,22.3
+L130_v1,Bangladesh,20.9
+L131_v1,Madagascar,20.7
+L132_v1,Afghanistan,19.9
+L133_v1,India,19.5
+L134_v1,Egypt,19.0
+L135_v1,Libya,18.6
+L136_v1,Pakistan,17.8
+L001_v2,Switzerland,98.4
+L002_v2,United States Virgin Islands,98.4
+L003_v2,Iceland,83.4
+L004_v2,Bahamas,81.4
+L005_v2,Singapore,79.1
+L006_v2,Hong Kong,73.6
+L007_v2,Barbados,70.0
+L008_v2,Norway,69.0
+L009_v2,Papua New Guinea,67.4
+L010_v2,Denmark,66.9
+L011_v2,Guernsey,66.1
+L012_v2,Israel,65.2
+L013_v2,United States,64.9
+L014_v2,Luxembourg,64.8
+L015_v2,Australia,60.9
+L016_v2,Austria,60.7
+L017_v2,Netherlands,60.5
+L018_v2,Ireland,59.8
+L019_v2,United Kingdom,59.2
+L020_v2,Canada,58.7
+L021_v2,Finland,58.7
+L022_v2,Puerto Rico,58.7
+L023_v2,Germany,58.4
+L024_v2,France,58.0
+L025_v2,Macau,56.8
+L026_v2,South Korea,56.5
+L027_v2,Belgium,56.5
+L028_v2,New Zealand,55.3
+L029_v2,Sweden,54.2
+L030_v2,United Arab Emirates,54.1
+L031_v2,Italy,51.0
+L032_v2,Jamaica,50.3
+L033_v2,Costa Rica,50.1
+L034_v2,Cyprus,49.5
+L035_v2,Estonia,49.4
+L036_v2,Yemen,48.4
+L037_v2,Bahrain,48.3
+L038_v2,Malta,48.0
+L039_v2,Qatar,47.5
+L040_v2,Greece,46.5
+L041_v2,Uruguay,46.3
+L042_v2,Slovenia,46.2
+L043_v2,Japan,45.6
+L044_v2,Maldives,45.3
+L045_v2,Taiwan,44.4
+L046_v2,Brunei,44.4
+L047_v2,Lithuania,44.0
+L048_v2,Panama,43.9
+L049_v2,Spain,43.5
+L050_v2,Latvia,43.4
+L051_v2,Ethiopia,43.2
+L052_v2,Croatia,43.2
+L053_v2,Czechia,42.6
+L054_v2,Slovakia,42.1
+L055_v2,Saudi Arabia,41.9
+L056_v2,Belize,41.4
+L057_v2,Portugal,41.2
+L058_v2,Cuba,40.8
+L059_v2,Kuwait,40.4
+L060_v2,Albania,39.9
+L061_v2,Oman,39.8
+L062_v2,Armenia,39.6
+L063_v2,Palestine,39.5
+L064_v2,Botswana,39.5
+L065_v2,Poland,38.9
+L066_v2,Mozambique,38.9
+L067_v2,Ivory Coast,38.8
+L068_v2,Lebanon,38.8
+L069_v2,Somalia,38.7
+L070_v2,El Salvador,37.9
+L071_v2,Jordan,37.2
+L072_v2,Guatemala,36.8
+L073_v2,Hungary,36.6
+L074_v2,Montenegro,36.3
+L075_v2,Cameroon,36.2
+L076_v2,Venezuela,35.9
+L077_v2,Serbia,35.9
+L078_v2,Argentina,35.7
+L079_v2,Mauritius,35.6
+L080_v2,Bulgaria,35.4
+L081_v2,Chile,35.1
+L082_v2,Turkey,34.7
+L083_v2,Zimbabwe,34.7
+L084_v2,Rwanda,34.6
+L085_v2,Honduras,34.6
+L086_v2,Mexico,34.5
+L087_v2,Dominican Republic,34.3
+L088_v2,Romania,34.0
+L089_v2,Cambodia,33.9
+L090_v2,Zambia,33.8
+L091_v2,Thailand,33.7
+L092_v2,Sri Lanka,33.5
+L093_v2,Fiji,32.0
+L094_v2,Tanzania,31.8
+L095_v2,Moldova,30.8
+L096_v2,China,30.7
+L097_v2,Ghana,30.6
+L098_v2,Mongolia,30.6
+L099_v2,Georgia,30.4
+L100_v2,North Macedonia,30.3
+L101_v2,South Africa,30.0
+L102_v2,Ecuador,30.0
+L103_v2,Malaysia,29.7
+L104_v2,Azerbaijan,29.5
+L105_v2,Peru,29.4
+L106_v2,Namibia,29.3
+L107_v2,Philippines,28.8
+L108_v2,Kenya,28.2
+L109_v2,Morocco,27.2
+L110_v2,Iraq,26.9
+L111_v2,Vietnam,26.6
+L112_v2,Kazakhstan,26.6
+L113_v2,Nigeria,26.4
+L114_v2,Colombia,26.0
+L115_v2,Uganda,26.0
+L116_v2,Brazil,25.6
+L117_v2,Tunisia,25.5
+L118_v2,Kyrgyzstan,25.4
+L119_v2,Bolivia,25.2
+L120_v2,Belarus,25.0
+L121_v2,Indonesia,24.6
+L122_v2,Ukraine,24.6
+L123_v2,Algeria,24.5
+L124_v2,Uzbekistan,24.2
+L125_v2,Iran,23.6
+L126_v2,Syria,23.3
+L127_v2,Nepal,23.0
+L128_v2,Paraguay,23.0
+L129_v2,Russia,22.3
+L130_v2,Bangladesh,20.9
+L131_v2,Madagascar,20.7
+L132_v2,Afghanistan,19.9
+L133_v2,India,19.5
+L134_v2,Egypt,19.0
+L135_v2,Libya,18.6
+L136_v2,Pakistan,17.8
+L001_v3,Switzerland,98.4
+L002_v3,United States Virgin Islands,98.4
+L003_v3,Iceland,83.4
+L004_v3,Bahamas,81.4
+L005_v3,Singapore,79.1
+L006_v3,Hong Kong,73.6
+L007_v3,Barbados,70.0
+L008_v3,Norway,69.0
+L009_v3,Papua New Guinea,67.4
+L010_v3,Denmark,66.9
+L011_v3,Guernsey,66.1
+L012_v3,Israel,65.2
+L013_v3,United States,64.9
+L014_v3,Luxembourg,64.8
+L015_v3,Australia,60.9
+L016_v3,Austria,60.7
+L017_v3,Netherlands,60.5
+L018_v3,Ireland,59.8
+L019_v3,United Kingdom,59.2
+L020_v3,Canada,58.7
+L021_v3,Finland,58.7
+L022_v3,Puerto Rico,58.7
+L023_v3,Germany,58.4
+L024_v3,France,58.0
+L025_v3,Macau,56.8
+L026_v3,South Korea,56.5
+L027_v3,Belgium,56.5
+L028_v3,New Zealand,55.3
+L029_v3,Sweden,54.2
+L030_v3,United Arab Emirates,54.1
+L031_v3,Italy,51.0
+L032_v3,Jamaica,50.3
+L033_v3,Costa Rica,50.1
+L034_v3,Cyprus,49.5
+L035_v3,Estonia,49.4
+L036_v3,Yemen,48.4
+L037_v3,Bahrain,48.3
+L038_v3,Malta,48.0
+L039_v3,Qatar,47.5
+L040_v3,Greece,46.5
+L041_v3,Uruguay,46.3
+L042_v3,Slovenia,46.2
+L043_v3,Japan,45.6
+L044_v3,Maldives,45.3
+L045_v3,Taiwan,44.4
+L046_v3,Brunei,44.4
+L047_v3,Lithuania,44.0
+L048_v3,Panama,43.9
+L049_v3,Spain,43.5
+L050_v3,Latvia,43.4
+L051_v3,Ethiopia,43.2
+L052_v3,Croatia,43.2
+L053_v3,Czechia,42.6
+L054_v3,Slovakia,42.1
+L055_v3,Saudi Arabia,41.9
+L056_v3,Belize,41.4
+L057_v3,Portugal,41.2
+L058_v3,Cuba,40.8
+L059_v3,Kuwait,40.4
+L060_v3,Albania,39.9
+L061_v3,Oman,39.8
+L062_v3,Armenia,39.6
+L063_v3,Palestine,39.5
+L064_v3,Botswana,39.5
+L065_v3,Poland,38.9
+L066_v3,Mozambique,38.9
+L067_v3,Ivory Coast,38.8
+L068_v3,Lebanon,38.8
+L069_v3,Somalia,38.7
+L070_v3,El Salvador,37.9
+L071_v3,Jordan,37.2
+L072_v3,Guatemala,36.8
+L073_v3,Hungary,36.6
+L074_v3,Montenegro,36.3
+L075_v3,Cameroon,36.2
+L076_v3,Venezuela,35.9
+L077_v3,Serbia,35.9
+L078_v3,Argentina,35.7
+L079_v3,Mauritius,35.6
+L080_v3,Bulgaria,35.4
+L081_v3,Chile,35.1
+L082_v3,Turkey,34.7
+L083_v3,Zimbabwe,34.7
+L084_v3,Rwanda,34.6
+L085_v3,Honduras,34.6
+L086_v3,Mexico,34.5
+L087_v3,Dominican Republic,34.3
+L088_v3,Romania,34.0
+L089_v3,Cambodia,33.9
+L090_v3,Zambia,33.8
+L091_v3,Thailand,33.7
+L092_v3,Sri Lanka,33.5
+L093_v3,Fiji,32.0
+L094_v3,Tanzania,31.8
+L095_v3,Moldova,30.8
+L096_v3,China,30.7
+L097_v3,Ghana,30.6
+L098_v3,Mongolia,30.6
+L099_v3,Georgia,30.4
+L100_v3,North Macedonia,30.3
+L101_v3,South Africa,30.0
+L102_v3,Ecuador,30.0
+L103_v3,Malaysia,29.7
+L104_v3,Azerbaijan,29.5
+L105_v3,Peru,29.4
+L106_v3,Namibia,29.3
+L107_v3,Philippines,28.8
+L108_v3,Kenya,28.2
+L109_v3,Morocco,27.2
+L110_v3,Iraq,26.9
+L111_v3,Vietnam,26.6
+L112_v3,Kazakhstan,26.6
+L113_v3,Nigeria,26.4
+L114_v3,Colombia,26.0
+L115_v3,Uganda,26.0
+L116_v3,Brazil,25.6
+L117_v3,Tunisia,25.5
+L118_v3,Kyrgyzstan,25.4
+L119_v3,Bolivia,25.2
+L120_v3,Belarus,25.0
+L121_v3,Indonesia,24.6
+L122_v3,Ukraine,24.6
+L123_v3,Algeria,24.5
+L124_v3,Uzbekistan,24.2
+L125_v3,Iran,23.6
+L126_v3,Syria,23.3
+L127_v3,Nepal,23.0
+L128_v3,Paraguay,23.0
+L129_v3,Russia,22.3
+L130_v3,Bangladesh,20.9
+L131_v3,Madagascar,20.7
+L132_v3,Afghanistan,19.9
+L133_v3,India,19.5
+L134_v3,Egypt,19.0
+L135_v3,Libya,18.6
+L136_v3,Pakistan,17.8
+L001_v4,Switzerland,98.4
+L002_v4,United States Virgin Islands,98.4
+L003_v4,Iceland,83.4
+L004_v4,Bahamas,81.4
+L005_v4,Singapore,79.1
+L006_v4,Hong Kong,73.6
+L007_v4,Barbados,70.0
+L008_v4,Norway,69.0
+L009_v4,Papua New Guinea,67.4
+L010_v4,Denmark,66.9
+L011_v4,Guernsey,66.1
+L012_v4,Israel,65.2
+L013_v4,United States,64.9
+L014_v4,Luxembourg,64.8
+L015_v4,Australia,60.9
+L016_v4,Austria,60.7
+L017_v4,Netherlands,60.5
+L018_v4,Ireland,59.8
+L019_v4,United Kingdom,59.2
+L020_v4,Canada,58.7
+L021_v4,Finland,58.7
+L022_v4,Puerto Rico,58.7
+L023_v4,Germany,58.4
+L024_v4,France,58.0
+L025_v4,Macau,56.8
+L026_v4,South Korea,56.5
+L027_v4,Belgium,56.5
+L028_v4,New Zealand,55.3
+L029_v4,Sweden,54.2
+L030_v4,United Arab Emirates,54.1
+L031_v4,Italy,51.0
+L032_v4,Jamaica,50.3
+L033_v4,Costa Rica,50.1
+L034_v4,Cyprus,49.5
+L035_v4,Estonia,49.4
+L036_v4,Yemen,48.4
+L037_v4,Bahrain,48.3
+L038_v4,Malta,48.0
+L039_v4,Qatar,47.5
+L040_v4,Greece,46.5
+L041_v4,Uruguay,46.3
+L042_v4,Slovenia,46.2
+L043_v4,Japan,45.6
+L044_v4,Maldives,45.3
+L045_v4,Taiwan,44.4
+L046_v4,Brunei,44.4
+L047_v4,Lithuania,44.0
+L048_v4,Panama,43.9
+L049_v4,Spain,43.5
+L050_v4,Latvia,43.4
+L051_v4,Ethiopia,43.2
+L052_v4,Croatia,43.2
+L053_v4,Czechia,42.6
+L054_v4,Slovakia,42.1
+L055_v4,Saudi Arabia,41.9
+L056_v4,Belize,41.4
+L057_v4,Portugal,41.2
+L058_v4,Cuba,40.8
+L059_v4,Kuwait,40.4
+L060_v4,Albania,39.9
+L061_v4,Oman,39.8
+L062_v4,Armenia,39.6
+L063_v4,Palestine,39.5
+L064_v4,Botswana,39.5
+L065_v4,Poland,38.9
+L066_v4,Mozambique,38.9
+L067_v4,Ivory Coast,38.8
+L068_v4,Lebanon,38.8
+L069_v4,Somalia,38.7
+L070_v4,El Salvador,37.9
+L071_v4,Jordan,37.2
+L072_v4,Guatemala,36.8
+L073_v4,Hungary,36.6
+L074_v4,Montenegro,36.3
+L075_v4,Cameroon,36.2
+L076_v4,Venezuela,35.9
+L077_v4,Serbia,35.9
+L078_v4,Argentina,35.7
+L079_v4,Mauritius,35.6
+L080_v4,Bulgaria,35.4
+L081_v4,Chile,35.1
+L082_v4,Turkey,34.7
+L083_v4,Zimbabwe,34.7
+L084_v4,Rwanda,34.6
+L085_v4,Honduras,34.6
+L086_v4,Mexico,34.5
+L087_v4,Dominican Republic,34.3
+L088_v4,Romania,34.0
+L089_v4,Cambodia,33.9
+L090_v4,Zambia,33.8
+L091_v4,Thailand,33.7
+L092_v4,Sri Lanka,33.5
+L093_v4,Fiji,32.0
+L094_v4,Tanzania,31.8
+L095_v4,Moldova,30.8
+L096_v4,China,30.7
+L097_v4,Ghana,30.6
+L098_v4,Mongolia,30.6
+L099_v4,Georgia,30.4
+L100_v4,North Macedonia,30.3
+L101_v4,South Africa,30.0
+L102_v4,Ecuador,30.0
+L103_v4,Malaysia,29.7
+L104_v4,Azerbaijan,29.5
+L105_v4,Peru,29.4
+L106_v4,Namibia,29.3
+L107_v4,Philippines,28.8
+L108_v4,Kenya,28.2
+L109_v4,Morocco,27.2
+L110_v4,Iraq,26.9
+L111_v4,Vietnam,26.6
+L112_v4,Kazakhstan,26.6
+L113_v4,Nigeria,26.4
+L114_v4,Colombia,26.0
+L115_v4,Uganda,26.0
+L116_v4,Brazil,25.6
+L117_v4,Tunisia,25.5
+L118_v4,Kyrgyzstan,25.4
+L119_v4,Bolivia,25.2
+L120_v4,Belarus,25.0
+L121_v4,Indonesia,24.6
+L122_v4,Ukraine,24.6
+L123_v4,Algeria,24.5
+L124_v4,Uzbekistan,24.2
+L125_v4,Iran,23.6
+L126_v4,Syria,23.3
+L127_v4,Nepal,23.0
+L128_v4,Paraguay,23.0
+L129_v4,Russia,22.3
+L130_v4,Bangladesh,20.9
+L131_v4,Madagascar,20.7
+L132_v4,Afghanistan,19.9
+L133_v4,India,19.5
+L134_v4,Egypt,19.0
+L135_v4,Libya,18.6
+L136_v4,Pakistan,17.8
+L001_v5,Switzerland,98.4
+L002_v5,United States Virgin Islands,98.4
+L003_v5,Iceland,83.4
+L004_v5,Bahamas,81.4
+L005_v5,Singapore,79.1
+L006_v5,Hong Kong,73.6
+L007_v5,Barbados,70.0
+L008_v5,Norway,69.0
+L009_v5,Papua New Guinea,67.4
+L010_v5,Denmark,66.9
+L011_v5,Guernsey,66.1
+L012_v5,Israel,65.2
+L013_v5,United States,64.9
+L014_v5,Luxembourg,64.8
+L015_v5,Australia,60.9
+L016_v5,Austria,60.7
+L017_v5,Netherlands,60.5
+L018_v5,Ireland,59.8
+L019_v5,United Kingdom,59.2
+L020_v5,Canada,58.7
+L021_v5,Finland,58.7
+L022_v5,Puerto Rico,58.7
+L023_v5,Germany,58.4
+L024_v5,France,58.0
+L025_v5,Macau,56.8
+L026_v5,South Korea,56.5
+L027_v5,Belgium,56.5
+L028_v5,New Zealand,55.3
+L029_v5,Sweden,54.2
+L030_v5,United Arab Emirates,54.1
+L031_v5,Italy,51.0
+L032_v5,Jamaica,50.3
+L033_v5,Costa Rica,50.1
+L034_v5,Cyprus,49.5
+L035_v5,Estonia,49.4
+L036_v5,Yemen,48.4
+L037_v5,Bahrain,48.3
+L038_v5,Malta,48.0
+L039_v5,Qatar,47.5
+L040_v5,Greece,46.5
+L041_v5,Uruguay,46.3
+L042_v5,Slovenia,46.2
+L043_v5,Japan,45.6
+L044_v5,Maldives,45.3
+L045_v5,Taiwan,44.4
+L046_v5,Brunei,44.4
+L047_v5,Lithuania,44.0
+L048_v5,Panama,43.9
+L049_v5,Spain,43.5
+L050_v5,Latvia,43.4
+L051_v5,Ethiopia,43.2
+L052_v5,Croatia,43.2
+L053_v5,Czechia,42.6
+L054_v5,Slovakia,42.1
+L055_v5,Saudi Arabia,41.9
+L056_v5,Belize,41.4
+L057_v5,Portugal,41.2
+L058_v5,Cuba,40.8
+L059_v5,Kuwait,40.4
+L060_v5,Albania,39.9
+L061_v5,Oman,39.8
+L062_v5,Armenia,39.6
+L063_v5,Palestine,39.5
+L064_v5,Botswana,39.5
+L065_v5,Poland,38.9
+L066_v5,Mozambique,38.9
+L067_v5,Ivory Coast,38.8
+L068_v5,Lebanon,38.8
+L069_v5,Somalia,38.7
+L070_v5,El Salvador,37.9
+L071_v5,Jordan,37.2
+L072_v5,Guatemala,36.8
+L073_v5,Hungary,36.6
+L074_v5,Montenegro,36.3
+L075_v5,Cameroon,36.2
+L076_v5,Venezuela,35.9
+L077_v5,Serbia,35.9
+L078_v5,Argentina,35.7
+L079_v5,Mauritius,35.6
+L080_v5,Bulgaria,35.4
+L081_v5,Chile,35.1
+L082_v5,Turkey,34.7
+L083_v5,Zimbabwe,34.7
+L084_v5,Rwanda,34.6
+L085_v5,Honduras,34.6
+L086_v5,Mexico,34.5
+L087_v5,Dominican Republic,34.3
+L088_v5,Romania,34.0
+L089_v5,Cambodia,33.9
+L090_v5,Zambia,33.8
+L091_v5,Thailand,33.7
+L092_v5,Sri Lanka,33.5
+L093_v5,Fiji,32.0
+L094_v5,Tanzania,31.8
+L095_v5,Moldova,30.8
+L096_v5,China,30.7
+L097_v5,Ghana,30.6
+L098_v5,Mongolia,30.6
+L099_v5,Georgia,30.4
+L100_v5,North Macedonia,30.3
+L101_v5,South Africa,30.0
+L102_v5,Ecuador,30.0
+L103_v5,Malaysia,29.7
+L104_v5,Azerbaijan,29.5
+L105_v5,Peru,29.4
+L106_v5,Namibia,29.3
+L107_v5,Philippines,28.8
+L108_v5,Kenya,28.2
+L109_v5,Morocco,27.2
+L110_v5,Iraq,26.9
+L111_v5,Vietnam,26.6
+L112_v5,Kazakhstan,26.6
+L113_v5,Nigeria,26.4
+L114_v5,Colombia,26.0
+L115_v5,Uganda,26.0
+L116_v5,Brazil,25.6
+L117_v5,Tunisia,25.5
+L118_v5,Kyrgyzstan,25.4
+L119_v5,Bolivia,25.2
+L120_v5,Belarus,25.0
+L121_v5,Indonesia,24.6
+L122_v5,Ukraine,24.6
+L123_v5,Algeria,24.5
+L124_v5,Uzbekistan,24.2
+L125_v5,Iran,23.6
+L126_v5,Syria,23.3
+L127_v5,Nepal,23.0
+L128_v5,Paraguay,23.0
+L129_v5,Russia,22.3
+L130_v5,Bangladesh,20.9
+L131_v5,Madagascar,20.7
+L132_v5,Afghanistan,19.9
+L133_v5,India,19.5
+L134_v5,Egypt,19.0
+L135_v5,Libya,18.6
+L136_v5,Pakistan,17.8
+L001_v6,Switzerland,98.4
+L002_v6,United States Virgin Islands,98.4
+L003_v6,Iceland,83.4
+L004_v6,Bahamas,81.4
+L005_v6,Singapore,79.1
+L006_v6,Hong Kong,73.6
+L007_v6,Barbados,70.0
+L008_v6,Norway,69.0
+L009_v6,Papua New Guinea,67.4
+L010_v6,Denmark,66.9
+L011_v6,Guernsey,66.1
+L012_v6,Israel,65.2
+L013_v6,United States,64.9
+L014_v6,Luxembourg,64.8
+L015_v6,Australia,60.9
+L016_v6,Austria,60.7
+L017_v6,Netherlands,60.5
+L018_v6,Ireland,59.8
+L019_v6,United Kingdom,59.2
+L020_v6,Canada,58.7
+L021_v6,Finland,58.7
+L022_v6,Puerto Rico,58.7
+L023_v6,Germany,58.4
+L024_v6,France,58.0
+L025_v6,Macau,56.8
+L026_v6,South Korea,56.5
+L027_v6,Belgium,56.5
+L028_v6,New Zealand,55.3
+L029_v6,Sweden,54.2
+L030_v6,United Arab Emirates,54.1
+L031_v6,Italy,51.0
+L032_v6,Jamaica,50.3
+L033_v6,Costa Rica,50.1
+L034_v6,Cyprus,49.5
+L035_v6,Estonia,49.4
+L036_v6,Yemen,48.4
+L037_v6,Bahrain,48.3
+L038_v6,Malta,48.0
+L039_v6,Qatar,47.5
+L040_v6,Greece,46.5
+L041_v6,Uruguay,46.3
+L042_v6,Slovenia,46.2
+L043_v6,Japan,45.6
+L044_v6,Maldives,45.3
+L045_v6,Taiwan,44.4
+L046_v6,Brunei,44.4
+L047_v6,Lithuania,44.0
+L048_v6,Panama,43.9
+L049_v6,Spain,43.5
+L050_v6,Latvia,43.4
+L051_v6,Ethiopia,43.2
+L052_v6,Croatia,43.2
+L053_v6,Czechia,42.6
+L054_v6,Slovakia,42.1
+L055_v6,Saudi Arabia,41.9
+L056_v6,Belize,41.4
+L057_v6,Portugal,41.2
+L058_v6,Cuba,40.8
+L059_v6,Kuwait,40.4
+L060_v6,Albania,39.9
+L061_v6,Oman,39.8
+L062_v6,Armenia,39.6
+L063_v6,Palestine,39.5
+L064_v6,Botswana,39.5
+L065_v6,Poland,38.9
+L066_v6,Mozambique,38.9
+L067_v6,Ivory Coast,38.8
+L068_v6,Lebanon,38.8
+L069_v6,Somalia,38.7
+L070_v6,El Salvador,37.9
+L071_v6,Jordan,37.2
+L072_v6,Guatemala,36.8
+L073_v6,Hungary,36.6
+L074_v6,Montenegro,36.3
+L075_v6,Cameroon,36.2
+L076_v6,Venezuela,35.9
+L077_v6,Serbia,35.9
+L078_v6,Argentina,35.7
+L079_v6,Mauritius,35.6
+L080_v6,Bulgaria,35.4
+L081_v6,Chile,35.1
+L082_v6,Turkey,34.7
+L083_v6,Zimbabwe,34.7
+L084_v6,Rwanda,34.6
+L085_v6,Honduras,34.6
+L086_v6,Mexico,34.5
+L087_v6,Dominican Republic,34.3
+L088_v6,Romania,34.0
+L089_v6,Cambodia,33.9
+L090_v6,Zambia,33.8
+L091_v6,Thailand,33.7
+L092_v6,Sri Lanka,33.5
+L093_v6,Fiji,32.0
+L094_v6,Tanzania,31.8
+L095_v6,Moldova,30.8
+L096_v6,China,30.7
+L097_v6,Ghana,30.6
+L098_v6,Mongolia,30.6
+L099_v6,Georgia,30.4
+L100_v6,North Macedonia,30.3
+L101_v6,South Africa,30.0
+L102_v6,Ecuador,30.0
+L103_v6,Malaysia,29.7
+L104_v6,Azerbaijan,29.5
+L105_v6,Peru,29.4
+L106_v6,Namibia,29.3
+L107_v6,Philippines,28.8
+L108_v6,Kenya,28.2
+L109_v6,Morocco,27.2
+L110_v6,Iraq,26.9
+L111_v6,Vietnam,26.6
+L112_v6,Kazakhstan,26.6
+L113_v6,Nigeria,26.4
+L114_v6,Colombia,26.0
+L115_v6,Uganda,26.0
+L116_v6,Brazil,25.6
+L117_v6,Tunisia,25.5
+L118_v6,Kyrgyzstan,25.4
+L119_v6,Bolivia,25.2
+L120_v6,Belarus,25.0
+L121_v6,Indonesia,24.6
+L122_v6,Ukraine,24.6
+L123_v6,Algeria,24.5
+L124_v6,Uzbekistan,24.2
+L125_v6,Iran,23.6
+L126_v6,Syria,23.3
+L127_v6,Nepal,23.0
+L128_v6,Paraguay,23.0
+L129_v6,Russia,22.3
+L130_v6,Bangladesh,20.9
+L131_v6,Madagascar,20.7
+L132_v6,Afghanistan,19.9
+L133_v6,India,19.5
+L134_v6,Egypt,19.0
+L135_v6,Libya,18.6
+L136_v6,Pakistan,17.8
+L001_v7,Switzerland,98.4
+L002_v7,United States Virgin Islands,98.4
+L003_v7,Iceland,83.4
+L004_v7,Bahamas,81.4
+L005_v7,Singapore,79.1
+L006_v7,Hong Kong,73.6
+L007_v7,Barbados,70.0
+L008_v7,Norway,69.0
+L009_v7,Papua New Guinea,67.4
+L010_v7,Denmark,66.9
+L011_v7,Guernsey,66.1
+L012_v7,Israel,65.2
+L013_v7,United States,64.9
+L014_v7,Luxembourg,64.8
+L015_v7,Australia,60.9
+L016_v7,Austria,60.7
+L017_v7,Netherlands,60.5
+L018_v7,Ireland,59.8
+L019_v7,United Kingdom,59.2
+L020_v7,Canada,58.7
+L021_v7,Finland,58.7
+L022_v7,Puerto Rico,58.7
+L023_v7,Germany,58.4
+L024_v7,France,58.0
+L025_v7,Macau,56.8
+L026_v7,South Korea,56.5
+L027_v7,Belgium,56.5
+L028_v7,New Zealand,55.3
+L029_v7,Sweden,54.2
+L030_v7,United Arab Emirates,54.1
+L031_v7,Italy,51.0
+L032_v7,Jamaica,50.3
+L033_v7,Costa Rica,50.1
+L034_v7,Cyprus,49.5
+L035_v7,Estonia,49.4
+L036_v7,Yemen,48.4
+L037_v7,Bahrain,48.3
+L038_v7,Malta,48.0
+L039_v7,Qatar,47.5
+L040_v7,Greece,46.5
+L041_v7,Uruguay,46.3
+L042_v7,Slovenia,46.2
+L043_v7,Japan,45.6
+L044_v7,Maldives,45.3
+L045_v7,Taiwan,44.4
+L046_v7,Brunei,44.4
+L047_v7,Lithuania,44.0
+L048_v7,Panama,43.9
+L049_v7,Spain,43.5
+L050_v7,Latvia,43.4
+L051_v7,Ethiopia,43.2
+L052_v7,Croatia,43.2
+L053_v7,Czechia,42.6
+L054_v7,Slovakia,42.1
+L055_v7,Saudi Arabia,41.9
+L056_v7,Belize,41.4
+L057_v7,Portugal,41.2
+L058_v7,Cuba,40.8
+L059_v7,Kuwait,40.4
+L060_v7,Albania,39.9
+L061_v7,Oman,39.8
+L062_v7,Armenia,39.6
+L063_v7,Palestine,39.5
+L064_v7,Botswana,39.5
+L065_v7,Poland,38.9
+L066_v7,Mozambique,38.9
+L067_v7,Ivory Coast,38.8
+L068_v7,Lebanon,38.8
+L069_v7,Somalia,38.7
+L070_v7,El Salvador,37.9
+L071_v7,Jordan,37.2
+L072_v7,Guatemala,36.8
+L073_v7,Hungary,36.6
+L074_v7,Montenegro,36.3
+L075_v7,Cameroon,36.2
+L076_v7,Venezuela,35.9
+L077_v7,Serbia,35.9
+L078_v7,Argentina,35.7
+L079_v7,Mauritius,35.6
+L080_v7,Bulgaria,35.4
+L081_v7,Chile,35.1
+L082_v7,Turkey,34.7
+L083_v7,Zimbabwe,34.7
+L084_v7,Rwanda,34.6
+L085_v7,Honduras,34.6
+L086_v7,Mexico,34.5
+L087_v7,Dominican Republic,34.3
+L088_v7,Romania,34.0
+L089_v7,Cambodia,33.9
+L090_v7,Zambia,33.8
+L091_v7,Thailand,33.7
+L092_v7,Sri Lanka,33.5
+L093_v7,Fiji,32.0
+L094_v7,Tanzania,31.8
+L095_v7,Moldova,30.8
+L096_v7,China,30.7
+L097_v7,Ghana,30.6
+L098_v7,Mongolia,30.6
+L099_v7,Georgia,30.4
+L100_v7,North Macedonia,30.3
+L101_v7,South Africa,30.0
+L102_v7,Ecuador,30.0
+L103_v7,Malaysia,29.7
+L104_v7,Azerbaijan,29.5
+L105_v7,Peru,29.4
+L106_v7,Namibia,29.3
+L107_v7,Philippines,28.8
+L108_v7,Kenya,28.2
+L109_v7,Morocco,27.2
+L110_v7,Iraq,26.9
+L111_v7,Vietnam,26.6
+L112_v7,Kazakhstan,26.6
+L113_v7,Nigeria,26.4
+L114_v7,Colombia,26.0
+L115_v7,Uganda,26.0
+L116_v7,Brazil,25.6
+L117_v7,Tunisia,25.5
+L118_v7,Kyrgyzstan,25.4
+L119_v7,Bolivia,25.2
+L120_v7,Belarus,25.0
+L121_v7,Indonesia,24.6
+L122_v7,Ukraine,24.6
+L123_v7,Algeria,24.5
+L124_v7,Uzbekistan,24.2
+L125_v7,Iran,23.6
+L126_v7,Syria,23.3
+L127_v7,Nepal,23.0
+L128_v7,Paraguay,23.0
+L129_v7,Russia,22.3
+L130_v7,Bangladesh,20.9
+L131_v7,Madagascar,20.7
+L132_v7,Afghanistan,19.9
+L133_v7,India,19.5
+L134_v7,Egypt,19.0
+L135_v7,Libya,18.6
+L136_v7,Pakistan,17.8
+L001_v8,Switzerland,98.4
+L002_v8,United States Virgin Islands,98.4
+L003_v8,Iceland,83.4
+L004_v8,Bahamas,81.4
+L005_v8,Singapore,79.1
+L006_v8,Hong Kong,73.6
+L007_v8,Barbados,70.0
+L008_v8,Norway,69.0
+L009_v8,Papua New Guinea,67.4
+L010_v8,Denmark,66.9
+L011_v8,Guernsey,66.1
+L012_v8,Israel,65.2
+L013_v8,United States,64.9
+L014_v8,Luxembourg,64.8
+L015_v8,Australia,60.9
+L016_v8,Austria,60.7
+L017_v8,Netherlands,60.5
+L018_v8,Ireland,59.8
+L019_v8,United Kingdom,59.2
+L020_v8,Canada,58.7
+L021_v8,Finland,58.7
+L022_v8,Puerto Rico,58.7
+L023_v8,Germany,58.4
+L024_v8,France,58.0
+L025_v8,Macau,56.8
+L026_v8,South Korea,56.5
+L027_v8,Belgium,56.5
+L028_v8,New Zealand,55.3
+L029_v8,Sweden,54.2
+L030_v8,United Arab Emirates,54.1
+L031_v8,Italy,51.0
+L032_v8,Jamaica,50.3
+L033_v8,Costa Rica,50.1
+L034_v8,Cyprus,49.5
+L035_v8,Estonia,49.4
+L036_v8,Yemen,48.4
+L037_v8,Bahrain,48.3
+L038_v8,Malta,48.0
+L039_v8,Qatar,47.5
+L040_v8,Greece,46.5
+L041_v8,Uruguay,46.3
+L042_v8,Slovenia,46.2
+L043_v8,Japan,45.6
+L044_v8,Maldives,45.3
+L045_v8,Taiwan,44.4
+L046_v8,Brunei,44.4
+L047_v8,Lithuania,44.0
+L048_v8,Panama,43.9
+L049_v8,Spain,43.5
+L050_v8,Latvia,43.4
+L051_v8,Ethiopia,43.2
+L052_v8,Croatia,43.2
+L053_v8,Czechia,42.6
+L054_v8,Slovakia,42.1
+L055_v8,Saudi Arabia,41.9
+L056_v8,Belize,41.4
+L057_v8,Portugal,41.2
+L058_v8,Cuba,40.8
+L059_v8,Kuwait,40.4
+L060_v8,Albania,39.9
+L061_v8,Oman,39.8
+L062_v8,Armenia,39.6
+L063_v8,Palestine,39.5
+L064_v8,Botswana,39.5
+L065_v8,Poland,38.9
+L066_v8,Mozambique,38.9
+L067_v8,Ivory Coast,38.8
+L068_v8,Lebanon,38.8
+L069_v8,Somalia,38.7
+L070_v8,El Salvador,37.9
+L071_v8,Jordan,37.2
+L072_v8,Guatemala,36.8
+L073_v8,Hungary,36.6
+L074_v8,Montenegro,36.3
+L075_v8,Cameroon,36.2
+L076_v8,Venezuela,35.9
+L077_v8,Serbia,35.9
+L078_v8,Argentina,35.7
+L079_v8,Mauritius,35.6
+L080_v8,Bulgaria,35.4
+L081_v8,Chile,35.1
+L082_v8,Turkey,34.7
+L083_v8,Zimbabwe,34.7
+L084_v8,Rwanda,34.6
+L085_v8,Honduras,34.6
+L086_v8,Mexico,34.5
+L087_v8,Dominican Republic,34.3
+L088_v8,Romania,34.0
+L089_v8,Cambodia,33.9
+L090_v8,Zambia,33.8
+L091_v8,Thailand,33.7
+L092_v8,Sri Lanka,33.5
+L093_v8,Fiji,32.0
+L094_v8,Tanzania,31.8
+L095_v8,Moldova,30.8
+L096_v8,China,30.7
+L097_v8,Ghana,30.6
+L098_v8,Mongolia,30.6
+L099_v8,Georgia,30.4
+L100_v8,North Macedonia,30.3
+L101_v8,South Africa,30.0
+L102_v8,Ecuador,30.0
+L103_v8,Malaysia,29.7
+L104_v8,Azerbaijan,29.5
+L105_v8,Peru,29.4
+L106_v8,Namibia,29.3
+L107_v8,Philippines,28.8
+L108_v8,Kenya,28.2
+L109_v8,Morocco,27.2
+L110_v8,Iraq,26.9
+L111_v8,Vietnam,26.6
+L112_v8,Kazakhstan,26.6
+L113_v8,Nigeria,26.4
+L114_v8,Colombia,26.0
+L115_v8,Uganda,26.0
+L116_v8,Brazil,25.6
+L117_v8,Tunisia,25.5
+L118_v8,Kyrgyzstan,25.4
+L119_v8,Bolivia,25.2
+L120_v8,Belarus,25.0
+L121_v8,Indonesia,24.6
+L122_v8,Ukraine,24.6
+L123_v8,Algeria,24.5
+L124_v8,Uzbekistan,24.2
+L125_v8,Iran,23.6
+L126_v8,Syria,23.3
+L127_v8,Nepal,23.0
+L128_v8,Paraguay,23.0
+L129_v8,Russia,22.3
+L130_v8,Bangladesh,20.9
+L131_v8,Madagascar,20.7
+L132_v8,Afghanistan,19.9
+L133_v8,India,19.5
+L134_v8,Egypt,19.0
+L135_v8,Libya,18.6
+L136_v8,Pakistan,17.8
+L001_v9,Switzerland,98.4
+L002_v9,United States Virgin Islands,98.4
+L003_v9,Iceland,83.4
+L004_v9,Bahamas,81.4
+L005_v9,Singapore,79.1
+L006_v9,Hong Kong,73.6
+L007_v9,Barbados,70.0
+L008_v9,Norway,69.0
+L009_v9,Papua New Guinea,67.4
+L010_v9,Denmark,66.9
+L011_v9,Guernsey,66.1
+L012_v9,Israel,65.2
+L013_v9,United States,64.9
+L014_v9,Luxembourg,64.8
+L015_v9,Australia,60.9
+L016_v9,Austria,60.7
+L017_v9,Netherlands,60.5
+L018_v9,Ireland,59.8
+L019_v9,United Kingdom,59.2
+L020_v9,Canada,58.7
+L021_v9,Finland,58.7
+L022_v9,Puerto Rico,58.7
+L023_v9,Germany,58.4
+L024_v9,France,58.0
+L025_v9,Macau,56.8
+L026_v9,South Korea,56.5
+L027_v9,Belgium,56.5
+L028_v9,New Zealand,55.3
+L029_v9,Sweden,54.2
+L030_v9,United Arab Emirates,54.1
+L031_v9,Italy,51.0
+L032_v9,Jamaica,50.3
+L033_v9,Costa Rica,50.1
+L034_v9,Cyprus,49.5
+L035_v9,Estonia,49.4
+L036_v9,Yemen,48.4
+L037_v9,Bahrain,48.3
+L038_v9,Malta,48.0
+L039_v9,Qatar,47.5
+L040_v9,Greece,46.5
+L041_v9,Uruguay,46.3
+L042_v9,Slovenia,46.2
+L043_v9,Japan,45.6
+L044_v9,Maldives,45.3
+L045_v9,Taiwan,44.4
+L046_v9,Brunei,44.4
+L047_v9,Lithuania,44.0
+L048_v9,Panama,43.9
+L049_v9,Spain,43.5
+L050_v9,Latvia,43.4
+L051_v9,Ethiopia,43.2
+L052_v9,Croatia,43.2
+L053_v9,Czechia,42.6
+L054_v9,Slovakia,42.1
+L055_v9,Saudi Arabia,41.9
+L056_v9,Belize,41.4
+L057_v9,Portugal,41.2
+L058_v9,Cuba,40.8
+L059_v9,Kuwait,40.4
+L060_v9,Albania,39.9
+L061_v9,Oman,39.8
+L062_v9,Armenia,39.6
+L063_v9,Palestine,39.5
+L064_v9,Botswana,39.5
+L065_v9,Poland,38.9
+L066_v9,Mozambique,38.9
+L067_v9,Ivory Coast,38.8
+L068_v9,Lebanon,38.8
+L069_v9,Somalia,38.7
+L070_v9,El Salvador,37.9
+L071_v9,Jordan,37.2
+L072_v9,Guatemala,36.8
+L073_v9,Hungary,36.6
+L074_v9,Montenegro,36.3
+L075_v9,Cameroon,36.2
+L076_v9,Venezuela,35.9
+L077_v9,Serbia,35.9
+L078_v9,Argentina,35.7
+L079_v9,Mauritius,35.6
+L080_v9,Bulgaria,35.4
+L081_v9,Chile,35.1
+L082_v9,Turkey,34.7
+L083_v9,Zimbabwe,34.7
+L084_v9,Rwanda,34.6
+L085_v9,Honduras,34.6
+L086_v9,Mexico,34.5
+L087_v9,Dominican Republic,34.3
+L088_v9,Romania,34.0
+L089_v9,Cambodia,33.9
+L090_v9,Zambia,33.8
+L091_v9,Thailand,33.7
+L092_v9,Sri Lanka,33.5
+L093_v9,Fiji,32.0
+L094_v9,Tanzania,31.8
+L095_v9,Moldova,30.8
+L096_v9,China,30.7
+L097_v9,Ghana,30.6
+L098_v9,Mongolia,30.6
+L099_v9,Georgia,30.4
+L100_v9,North Macedonia,30.3
+L101_v9,South Africa,30.0
+L102_v9,Ecuador,30.0
+L103_v9,Malaysia,29.7
+L104_v9,Azerbaijan,29.5
+L105_v9,Peru,29.4
+L106_v9,Namibia,29.3
+L107_v9,Philippines,28.8
+L108_v9,Kenya,28.2
+L109_v9,Morocco,27.2
+L110_v9,Iraq,26.9
+L111_v9,Vietnam,26.6
+L112_v9,Kazakhstan,26.6
+L113_v9,Nigeria,26.4
+L114_v9,Colombia,26.0
+L115_v9,Uganda,26.0
+L116_v9,Brazil,25.6
+L117_v9,Tunisia,25.5
+L118_v9,Kyrgyzstan,25.4
+L119_v9,Bolivia,25.2
+L120_v9,Belarus,25.0
+L121_v9,Indonesia,24.6
+L122_v9,Ukraine,24.6
+L123_v9,Algeria,24.5
+L124_v9,Uzbekistan,24.2
+L125_v9,Iran,23.6
+L126_v9,Syria,23.3
+L127_v9,Nepal,23.0
+L128_v9,Paraguay,23.0
+L129_v9,Russia,22.3
+L130_v9,Bangladesh,20.9
+L131_v9,Madagascar,20.7
+L132_v9,Afghanistan,19.9
+L133_v9,India,19.5
+L134_v9,Egypt,19.0
+L135_v9,Libya,18.6
+L136_v9,Pakistan,17.8
+L001_v10,Switzerland,98.4
+L002_v10,United States Virgin Islands,98.4
+L003_v10,Iceland,83.4
+L004_v10,Bahamas,81.4
+L005_v10,Singapore,79.1
+L006_v10,Hong Kong,73.6
+L007_v10,Barbados,70.0
+L008_v10,Norway,69.0
+L009_v10,Papua New Guinea,67.4
+L010_v10,Denmark,66.9
+L011_v10,Guernsey,66.1
+L012_v10,Israel,65.2
+L013_v10,United States,64.9
+L014_v10,Luxembourg,64.8
+L015_v10,Australia,60.9
+L016_v10,Austria,60.7
+L017_v10,Netherlands,60.5
+L018_v10,Ireland,59.8
+L019_v10,United Kingdom,59.2
+L020_v10,Canada,58.7
+L021_v10,Finland,58.7
+L022_v10,Puerto Rico,58.7
+L023_v10,Germany,58.4
+L024_v10,France,58.0
+L025_v10,Macau,56.8
+L026_v10,South Korea,56.5
+L027_v10,Belgium,56.5
+L028_v10,New Zealand,55.3
+L029_v10,Sweden,54.2
+L030_v10,United Arab Emirates,54.1
+L031_v10,Italy,51.0
+L032_v10,Jamaica,50.3
+L033_v10,Costa Rica,50.1
+L034_v10,Cyprus,49.5
+L035_v10,Estonia,49.4
+L036_v10,Yemen,48.4
+L037_v10,Bahrain,48.3
+L038_v10,Malta,48.0
+L039_v10,Qatar,47.5
+L040_v10,Greece,46.5
+L041_v10,Uruguay,46.3
+L042_v10,Slovenia,46.2
+L043_v10,Japan,45.6
+L044_v10,Maldives,45.3
+L045_v10,Taiwan,44.4
+L046_v10,Brunei,44.4
+L047_v10,Lithuania,44.0
+L048_v10,Panama,43.9
+L049_v10,Spain,43.5
+L050_v10,Latvia,43.4
+L051_v10,Ethiopia,43.2
+L052_v10,Croatia,43.2
+L053_v10,Czechia,42.6
+L054_v10,Slovakia,42.1
+L055_v10,Saudi Arabia,41.9
+L056_v10,Belize,41.4
+L057_v10,Portugal,41.2
+L058_v10,Cuba,40.8
+L059_v10,Kuwait,40.4
+L060_v10,Albania,39.9
+L061_v10,Oman,39.8
+L062_v10,Armenia,39.6
+L063_v10,Palestine,39.5
+L064_v10,Botswana,39.5
+L065_v10,Poland,38.9
+L066_v10,Mozambique,38.9
+L067_v10,Ivory Coast,38.8
+L068_v10,Lebanon,38.8
+L069_v10,Somalia,38.7
+L070_v10,El Salvador,37.9
+L071_v10,Jordan,37.2
+L072_v10,Guatemala,36.8
+L073_v10,Hungary,36.6
+L074_v10,Montenegro,36.3
+L075_v10,Cameroon,36.2
+L076_v10,Venezuela,35.9
+L077_v10,Serbia,35.9
+L078_v10,Argentina,35.7
+L079_v10,Mauritius,35.6
+L080_v10,Bulgaria,35.4
+L081_v10,Chile,35.1
+L082_v10,Turkey,34.7
+L083_v10,Zimbabwe,34.7
+L084_v10,Rwanda,34.6
+L085_v10,Honduras,34.6
+L086_v10,Mexico,34.5
+L087_v10,Dominican Republic,34.3
+L088_v10,Romania,34.0
+L089_v10,Cambodia,33.9
+L090_v10,Zambia,33.8
+L091_v10,Thailand,33.7
+L092_v10,Sri Lanka,33.5
+L093_v10,Fiji,32.0
+L094_v10,Tanzania,31.8
+L095_v10,Moldova,30.8
+L096_v10,China,30.7
+L097_v10,Ghana,30.6
+L098_v10,Mongolia,30.6
+L099_v10,Georgia,30.4
+L100_v10,North Macedonia,30.3
+L101_v10,South Africa,30.0
+L102_v10,Ecuador,30.0
+L103_v10,Malaysia,29.7
+L104_v10,Azerbaijan,29.5
+L105_v10,Peru,29.4
+L106_v10,Namibia,29.3
+L107_v10,Philippines,28.8
+L108_v10,Kenya,28.2
+L109_v10,Morocco,27.2
+L110_v10,Iraq,26.9
+L111_v10,Vietnam,26.6
+L112_v10,Kazakhstan,26.6
+L113_v10,Nigeria,26.4
+L114_v10,Colombia,26.0
+L115_v10,Uganda,26.0
+L116_v10,Brazil,25.6
+L117_v10,Tunisia,25.5
+L118_v10,Kyrgyzstan,25.4
+L119_v10,Bolivia,25.2
+L120_v10,Belarus,25.0
+L121_v10,Indonesia,24.6
+L122_v10,Ukraine,24.6
+L123_v10,Algeria,24.5
+L124_v10,Uzbekistan,24.2
+L125_v10,Iran,23.6
+L126_v10,Syria,23.3
+L127_v10,Nepal,23.0
+L128_v10,Paraguay,23.0
+L129_v10,Russia,22.3
+L130_v10,Bangladesh,20.9
+L131_v10,Madagascar,20.7
+L132_v10,Afghanistan,19.9
+L133_v10,India,19.5
+L134_v10,Egypt,19.0
+L135_v10,Libya,18.6
+L136_v10,Pakistan,17.8
+L001_v11,Switzerland,98.4
+L002_v11,United States Virgin Islands,98.4
+L003_v11,Iceland,83.4
+L004_v11,Bahamas,81.4
+L005_v11,Singapore,79.1
+L006_v11,Hong Kong,73.6
+L007_v11,Barbados,70.0
+L008_v11,Norway,69.0
+L009_v11,Papua New Guinea,67.4
+L010_v11,Denmark,66.9
+L011_v11,Guernsey,66.1
+L012_v11,Israel,65.2
+L013_v11,United States,64.9
+L014_v11,Luxembourg,64.8
+L015_v11,Australia,60.9
+L016_v11,Austria,60.7
+L017_v11,Netherlands,60.5
+L018_v11,Ireland,59.8
+L019_v11,United Kingdom,59.2
+L020_v11,Canada,58.7
+L021_v11,Finland,58.7
+L022_v11,Puerto Rico,58.7
+L023_v11,Germany,58.4
+L024_v11,France,58.0
+L025_v11,Macau,56.8
+L026_v11,South Korea,56.5
+L027_v11,Belgium,56.5
+L028_v11,New Zealand,55.3
+L029_v11,Sweden,54.2
+L030_v11,United Arab Emirates,54.1
+L031_v11,Italy,51.0
+L032_v11,Jamaica,50.3
+L033_v11,Costa Rica,50.1
+L034_v11,Cyprus,49.5
+L035_v11,Estonia,49.4
+L036_v11,Yemen,48.4
+L037_v11,Bahrain,48.3
+L038_v11,Malta,48.0
+L039_v11,Qatar,47.5
+L040_v11,Greece,46.5
+L041_v11,Uruguay,46.3
+L042_v11,Slovenia,46.2
+L043_v11,Japan,45.6
+L044_v11,Maldives,45.3
+L045_v11,Taiwan,44.4
+L046_v11,Brunei,44.4
+L047_v11,Lithuania,44.0
+L048_v11,Panama,43.9
+L049_v11,Spain,43.5
+L050_v11,Latvia,43.4
+L051_v11,Ethiopia,43.2
+L052_v11,Croatia,43.2
+L053_v11,Czechia,42.6
+L054_v11,Slovakia,42.1
+L055_v11,Saudi Arabia,41.9
+L056_v11,Belize,41.4
+L057_v11,Portugal,41.2
+L058_v11,Cuba,40.8
+L059_v11,Kuwait,40.4
+L060_v11,Albania,39.9
+L061_v11,Oman,39.8
+L062_v11,Armenia,39.6
+L063_v11,Palestine,39.5
+L064_v11,Botswana,39.5
+L065_v11,Poland,38.9
+L066_v11,Mozambique,38.9
+L067_v11,Ivory Coast,38.8
+L068_v11,Lebanon,38.8
+L069_v11,Somalia,38.7
+L070_v11,El Salvador,37.9
+L071_v11,Jordan,37.2
+L072_v11,Guatemala,36.8
+L073_v11,Hungary,36.6
+L074_v11,Montenegro,36.3
+L075_v11,Cameroon,36.2
+L076_v11,Venezuela,35.9
+L077_v11,Serbia,35.9
+L078_v11,Argentina,35.7
+L079_v11,Mauritius,35.6
+L080_v11,Bulgaria,35.4
+L081_v11,Chile,35.1
+L082_v11,Turkey,34.7
+L083_v11,Zimbabwe,34.7
+L084_v11,Rwanda,34.6
+L085_v11,Honduras,34.6
+L086_v11,Mexico,34.5
+L087_v11,Dominican Republic,34.3
+L088_v11,Romania,34.0
+L089_v11,Cambodia,33.9
+L090_v11,Zambia,33.8
+L091_v11,Thailand,33.7
+L092_v11,Sri Lanka,33.5
+L093_v11,Fiji,32.0
+L094_v11,Tanzania,31.8
+L095_v11,Moldova,30.8
+L096_v11,China,30.7
+L097_v11,Ghana,30.6
+L098_v11,Mongolia,30.6
+L099_v11,Georgia,30.4
+L100_v11,North Macedonia,30.3
+L101_v11,South Africa,30.0
+L102_v11,Ecuador,30.0
+L103_v11,Malaysia,29.7
+L104_v11,Azerbaijan,29.5
+L105_v11,Peru,29.4
+L106_v11,Namibia,29.3
+L107_v11,Philippines,28.8
+L108_v11,Kenya,28.2
+L109_v11,Morocco,27.2
+L110_v11,Iraq,26.9
+L111_v11,Vietnam,26.6
+L112_v11,Kazakhstan,26.6
+L113_v11,Nigeria,26.4
+L114_v11,Colombia,26.0
+L115_v11,Uganda,26.0
+L116_v11,Brazil,25.6
+L117_v11,Tunisia,25.5
+L118_v11,Kyrgyzstan,25.4
+L119_v11,Bolivia,25.2
+L120_v11,Belarus,25.0
+L121_v11,Indonesia,24.6
+L122_v11,Ukraine,24.6
+L123_v11,Algeria,24.5
+L124_v11,Uzbekistan,24.2
+L125_v11,Iran,23.6
+L126_v11,Syria,23.3
+L127_v11,Nepal,23.0
+L128_v11,Paraguay,23.0
+L129_v11,Russia,22.3
+L130_v11,Bangladesh,20.9
+L131_v11,Madagascar,20.7
+L132_v11,Afghanistan,19.9
+L133_v11,India,19.5
+L134_v11,Egypt,19.0
+L135_v11,Libya,18.6
+L136_v11,Pakistan,17.8
+L001_v12,Switzerland,98.4
+L002_v12,United States Virgin Islands,98.4
+L003_v12,Iceland,83.4
+L004_v12,Bahamas,81.4
+L005_v12,Singapore,79.1
+L006_v12,Hong Kong,73.6
+L007_v12,Barbados,70.0
+L008_v12,Norway,69.0
+L009_v12,Papua New Guinea,67.4
+L010_v12,Denmark,66.9
+L011_v12,Guernsey,66.1
+L012_v12,Israel,65.2
+L013_v12,United States,64.9
+L014_v12,Luxembourg,64.8
+L015_v12,Australia,60.9
+L016_v12,Austria,60.7
+L017_v12,Netherlands,60.5
+L018_v12,Ireland,59.8
+L019_v12,United Kingdom,59.2
+L020_v12,Canada,58.7
+L021_v12,Finland,58.7
+L022_v12,Puerto Rico,58.7
+L023_v12,Germany,58.4
+L024_v12,France,58.0
+L025_v12,Macau,56.8
+L026_v12,South Korea,56.5
+L027_v12,Belgium,56.5
+L028_v12,New Zealand,55.3
+L029_v12,Sweden,54.2
+L030_v12,United Arab Emirates,54.1
+L031_v12,Italy,51.0
+L032_v12,Jamaica,50.3
+L033_v12,Costa Rica,50.1
+L034_v12,Cyprus,49.5
+L035_v12,Estonia,49.4
+L036_v12,Yemen,48.4
+L037_v12,Bahrain,48.3
+L038_v12,Malta,48.0
+L039_v12,Qatar,47.5
+L040_v12,Greece,46.5
+L041_v12,Uruguay,46.3
+L042_v12,Slovenia,46.2
+L043_v12,Japan,45.6
+L044_v12,Maldives,45.3
+L045_v12,Taiwan,44.4
+L046_v12,Brunei,44.4
+L047_v12,Lithuania,44.0
+L048_v12,Panama,43.9
+L049_v12,Spain,43.5
+L050_v12,Latvia,43.4
+L051_v12,Ethiopia,43.2
+L052_v12,Croatia,43.2
+L053_v12,Czechia,42.6
+L054_v12,Slovakia,42.1
+L055_v12,Saudi Arabia,41.9
+L056_v12,Belize,41.4
+L057_v12,Portugal,41.2
+L058_v12,Cuba,40.8
+L059_v12,Kuwait,40.4
+L060_v12,Albania,39.9
+L061_v12,Oman,39.8
+L062_v12,Armenia,39.6
+L063_v12,Palestine,39.5
+L064_v12,Botswana,39.5
+L065_v12,Poland,38.9
+L066_v12,Mozambique,38.9
+L067_v12,Ivory Coast,38.8
+L068_v12,Lebanon,38.8
+L069_v12,Somalia,38.7
+L070_v12,El Salvador,37.9
+L071_v12,Jordan,37.2
+L072_v12,Guatemala,36.8
+L073_v12,Hungary,36.6
+L074_v12,Montenegro,36.3
+L075_v12,Cameroon,36.2
+L076_v12,Venezuela,35.9
+L077_v12,Serbia,35.9
+L078_v12,Argentina,35.7
+L079_v12,Mauritius,35.6
+L080_v12,Bulgaria,35.4
+L081_v12,Chile,35.1
+L082_v12,Turkey,34.7
+L083_v12,Zimbabwe,34.7
+L084_v12,Rwanda,34.6
+L085_v12,Honduras,34.6
+L086_v12,Mexico,34.5
+L087_v12,Dominican Republic,34.3
+L088_v12,Romania,34.0
+L089_v12,Cambodia,33.9
+L090_v12,Zambia,33.8
+L091_v12,Thailand,33.7
+L092_v12,Sri Lanka,33.5
+L093_v12,Fiji,32.0
+L094_v12,Tanzania,31.8
+L095_v12,Moldova,30.8
+L096_v12,China,30.7
+L097_v12,Ghana,30.6
+L098_v12,Mongolia,30.6
+L099_v12,Georgia,30.4
+L100_v12,North Macedonia,30.3
+L101_v12,South Africa,30.0
+L102_v12,Ecuador,30.0
+L103_v12,Malaysia,29.7
+L104_v12,Azerbaijan,29.5
+L105_v12,Peru,29.4
+L106_v12,Namibia,29.3
+L107_v12,Philippines,28.8
+L108_v12,Kenya,28.2
+L109_v12,Morocco,27.2
+L110_v12,Iraq,26.9
+L111_v12,Vietnam,26.6
+L112_v12,Kazakhstan,26.6
+L113_v12,Nigeria,26.4
+L114_v12,Colombia,26.0
+L115_v12,Uganda,26.0
+L116_v12,Brazil,25.6
+L117_v12,Tunisia,25.5
+L118_v12,Kyrgyzstan,25.4
+L119_v12,Bolivia,25.2
+L120_v12,Belarus,25.0
+L121_v12,Indonesia,24.6
+L122_v12,Ukraine,24.6
+L123_v12,Algeria,24.5
+L124_v12,Uzbekistan,24.2
+L125_v12,Iran,23.6
+L126_v12,Syria,23.3
+L127_v12,Nepal,23.0
+L128_v12,Paraguay,23.0
+L129_v12,Russia,22.3
+L130_v12,Bangladesh,20.9
+L131_v12,Madagascar,20.7
+L132_v12,Afghanistan,19.9
+L133_v12,India,19.5
+L134_v12,Egypt,19.0
+L135_v12,Libya,18.6
+L136_v12,Pakistan,17.8
+L001_v13,Switzerland,98.4
+L002_v13,United States Virgin Islands,98.4
+L003_v13,Iceland,83.4
+L004_v13,Bahamas,81.4
+L005_v13,Singapore,79.1
+L006_v13,Hong Kong,73.6
+L007_v13,Barbados,70.0
+L008_v13,Norway,69.0
+L009_v13,Papua New Guinea,67.4
+L010_v13,Denmark,66.9
+L011_v13,Guernsey,66.1
+L012_v13,Israel,65.2
+L013_v13,United States,64.9
+L014_v13,Luxembourg,64.8
+L015_v13,Australia,60.9
+L016_v13,Austria,60.7
+L017_v13,Netherlands,60.5
+L018_v13,Ireland,59.8
+L019_v13,United Kingdom,59.2
+L020_v13,Canada,58.7
+L021_v13,Finland,58.7
+L022_v13,Puerto Rico,58.7
+L023_v13,Germany,58.4
+L024_v13,France,58.0
+L025_v13,Macau,56.8
+L026_v13,South Korea,56.5
+L027_v13,Belgium,56.5
+L028_v13,New Zealand,55.3
+L029_v13,Sweden,54.2
+L030_v13,United Arab Emirates,54.1
+L031_v13,Italy,51.0
+L032_v13,Jamaica,50.3
+L033_v13,Costa Rica,50.1
+L034_v13,Cyprus,49.5
+L035_v13,Estonia,49.4
+L036_v13,Yemen,48.4
+L037_v13,Bahrain,48.3
+L038_v13,Malta,48.0
+L039_v13,Qatar,47.5
+L040_v13,Greece,46.5
+L041_v13,Uruguay,46.3
+L042_v13,Slovenia,46.2
+L043_v13,Japan,45.6
+L044_v13,Maldives,45.3
+L045_v13,Taiwan,44.4
+L046_v13,Brunei,44.4
+L047_v13,Lithuania,44.0
+L048_v13,Panama,43.9
+L049_v13,Spain,43.5
+L050_v13,Latvia,43.4
+L051_v13,Ethiopia,43.2
+L052_v13,Croatia,43.2
+L053_v13,Czechia,42.6
+L054_v13,Slovakia,42.1
+L055_v13,Saudi Arabia,41.9
+L056_v13,Belize,41.4
+L057_v13,Portugal,41.2
+L058_v13,Cuba,40.8
+L059_v13,Kuwait,40.4
+L060_v13,Albania,39.9
+L061_v13,Oman,39.8
+L062_v13,Armenia,39.6
+L063_v13,Palestine,39.5
+L064_v13,Botswana,39.5
+L065_v13,Poland,38.9
+L066_v13,Mozambique,38.9
+L067_v13,Ivory Coast,38.8
+L068_v13,Lebanon,38.8
+L069_v13,Somalia,38.7
+L070_v13,El Salvador,37.9
+L071_v13,Jordan,37.2
+L072_v13,Guatemala,36.8
+L073_v13,Hungary,36.6
+L074_v13,Montenegro,36.3
+L075_v13,Cameroon,36.2
+L076_v13,Venezuela,35.9
+L077_v13,Serbia,35.9
+L078_v13,Argentina,35.7
+L079_v13,Mauritius,35.6
+L080_v13,Bulgaria,35.4
+L081_v13,Chile,35.1
+L082_v13,Turkey,34.7
+L083_v13,Zimbabwe,34.7
+L084_v13,Rwanda,34.6
+L085_v13,Honduras,34.6
+L086_v13,Mexico,34.5
+L087_v13,Dominican Republic,34.3
+L088_v13,Romania,34.0
+L089_v13,Cambodia,33.9
+L090_v13,Zambia,33.8
+L091_v13,Thailand,33.7
+L092_v13,Sri Lanka,33.5
+L093_v13,Fiji,32.0
+L094_v13,Tanzania,31.8
+L095_v13,Moldova,30.8
+L096_v13,China,30.7
+L097_v13,Ghana,30.6
+L098_v13,Mongolia,30.6
+L099_v13,Georgia,30.4
+L100_v13,North Macedonia,30.3
+L101_v13,South Africa,30.0
+L102_v13,Ecuador,30.0
+L103_v13,Malaysia,29.7
+L104_v13,Azerbaijan,29.5
+L105_v13,Peru,29.4
+L106_v13,Namibia,29.3
+L107_v13,Philippines,28.8
+L108_v13,Kenya,28.2
+L109_v13,Morocco,27.2
+L110_v13,Iraq,26.9
+L111_v13,Vietnam,26.6
+L112_v13,Kazakhstan,26.6
+L113_v13,Nigeria,26.4
+L114_v13,Colombia,26.0
+L115_v13,Uganda,26.0
+L116_v13,Brazil,25.6
+L117_v13,Tunisia,25.5
+L118_v13,Kyrgyzstan,25.4
+L119_v13,Bolivia,25.2
+L120_v13,Belarus,25.0
+L121_v13,Indonesia,24.6
+L122_v13,Ukraine,24.6
+L123_v13,Algeria,24.5
+L124_v13,Uzbekistan,24.2
+L125_v13,Iran,23.6
+L126_v13,Syria,23.3
+L127_v13,Nepal,23.0
+L128_v13,Paraguay,23.0
+L129_v13,Russia,22.3
+L130_v13,Bangladesh,20.9
+L131_v13,Madagascar,20.7
+L132_v13,Afghanistan,19.9
+L133_v13,India,19.5
+L134_v13,Egypt,19.0
+L135_v13,Libya,18.6
+L136_v13,Pakistan,17.8
+L001_v14,Switzerland,98.4
+L002_v14,United States Virgin Islands,98.4
+L003_v14,Iceland,83.4
+L004_v14,Bahamas,81.4
+L005_v14,Singapore,79.1
+L006_v14,Hong Kong,73.6
+L007_v14,Barbados,70.0
+L008_v14,Norway,69.0
+L009_v14,Papua New Guinea,67.4
+L010_v14,Denmark,66.9
+L011_v14,Guernsey,66.1
+L012_v14,Israel,65.2
+L013_v14,United States,64.9
+L014_v14,Luxembourg,64.8
+L015_v14,Australia,60.9
+L016_v14,Austria,60.7
+L017_v14,Netherlands,60.5
+L018_v14,Ireland,59.8
+L019_v14,United Kingdom,59.2
+L020_v14,Canada,58.7
+L021_v14,Finland,58.7
+L022_v14,Puerto Rico,58.7
+L023_v14,Germany,58.4
+L024_v14,France,58.0
+L025_v14,Macau,56.8
+L026_v14,South Korea,56.5
+L027_v14,Belgium,56.5
+L028_v14,New Zealand,55.3
+L029_v14,Sweden,54.2
+L030_v14,United Arab Emirates,54.1
+L031_v14,Italy,51.0
+L032_v14,Jamaica,50.3
+L033_v14,Costa Rica,50.1
+L034_v14,Cyprus,49.5
+L035_v14,Estonia,49.4
+L036_v14,Yemen,48.4
+L037_v14,Bahrain,48.3
+L038_v14,Malta,48.0
+L039_v14,Qatar,47.5
+L040_v14,Greece,46.5
+L041_v14,Uruguay,46.3
+L042_v14,Slovenia,46.2
+L043_v14,Japan,45.6
+L044_v14,Maldives,45.3
+L045_v14,Taiwan,44.4
+L046_v14,Brunei,44.4
+L047_v14,Lithuania,44.0
+L048_v14,Panama,43.9
+L049_v14,Spain,43.5
+L050_v14,Latvia,43.4
+L051_v14,Ethiopia,43.2
+L052_v14,Croatia,43.2
+L053_v14,Czechia,42.6
+L054_v14,Slovakia,42.1
+L055_v14,Saudi Arabia,41.9
+L056_v14,Belize,41.4
+L057_v14,Portugal,41.2
+L058_v14,Cuba,40.8
+L059_v14,Kuwait,40.4
+L060_v14,Albania,39.9
+L061_v14,Oman,39.8
+L062_v14,Armenia,39.6
+L063_v14,Palestine,39.5
+L064_v14,Botswana,39.5
+L065_v14,Poland,38.9
+L066_v14,Mozambique,38.9
+L067_v14,Ivory Coast,38.8
+L068_v14,Lebanon,38.8
+L069_v14,Somalia,38.7
+L070_v14,El Salvador,37.9
+L071_v14,Jordan,37.2
+L072_v14,Guatemala,36.8
+L073_v14,Hungary,36.6
+L074_v14,Montenegro,36.3
+L075_v14,Cameroon,36.2
+L076_v14,Venezuela,35.9
+L077_v14,Serbia,35.9
+L078_v14,Argentina,35.7
+L079_v14,Mauritius,35.6
+L080_v14,Bulgaria,35.4
+L081_v14,Chile,35.1
+L082_v14,Turkey,34.7
+L083_v14,Zimbabwe,34.7
+L084_v14,Rwanda,34.6
+L085_v14,Honduras,34.6
+L086_v14,Mexico,34.5
+L087_v14,Dominican Republic,34.3
+L088_v14,Romania,34.0
+L089_v14,Cambodia,33.9
+L090_v14,Zambia,33.8
+L091_v14,Thailand,33.7
+L092_v14,Sri Lanka,33.5
+L093_v14,Fiji,32.0
+L094_v14,Tanzania,31.8
+L095_v14,Moldova,30.8
+L096_v14,China,30.7
+L097_v14,Ghana,30.6
+L098_v14,Mongolia,30.6
+L099_v14,Georgia,30.4
+L100_v14,North Macedonia,30.3
+L101_v14,South Africa,30.0
+L102_v14,Ecuador,30.0
+L103_v14,Malaysia,29.7
+L104_v14,Azerbaijan,29.5
+L105_v14,Peru,29.4
+L106_v14,Namibia,29.3
+L107_v14,Philippines,28.8
+L108_v14,Kenya,28.2
+L109_v14,Morocco,27.2
+L110_v14,Iraq,26.9
+L111_v14,Vietnam,26.6
+L112_v14,Kazakhstan,26.6
+L113_v14,Nigeria,26.4
+L114_v14,Colombia,26.0
+L115_v14,Uganda,26.0
+L116_v14,Brazil,25.6
+L117_v14,Tunisia,25.5
+L118_v14,Kyrgyzstan,25.4
+L119_v14,Bolivia,25.2
+L120_v14,Belarus,25.0
+L121_v14,Indonesia,24.6
+L122_v14,Ukraine,24.6
+L123_v14,Algeria,24.5
+L124_v14,Uzbekistan,24.2
+L125_v14,Iran,23.6
+L126_v14,Syria,23.3
+L127_v14,Nepal,23.0
+L128_v14,Paraguay,23.0
+L129_v14,Russia,22.3
+L130_v14,Bangladesh,20.9
+L131_v14,Madagascar,20.7
+L132_v14,Afghanistan,19.9
+L133_v14,India,19.5
+L134_v14,Egypt,19.0
+L135_v14,Libya,18.6
+L136_v14,Pakistan,17.8
