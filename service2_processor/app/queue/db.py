@@ -1,7 +1,8 @@
 import os
 import sqlite3
 
-DB_PATH = os.path.join("db", "service2.db")
+DB_PATH = "/tmp/service2.db"
+
 
 def get_connection():
     conn = sqlite3.connect(
