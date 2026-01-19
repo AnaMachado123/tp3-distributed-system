@@ -1,6 +1,12 @@
-from datetime import datetime
-import sqlite3
+from datetime import datetime, timezone
 from .db import get_connection
+
+
+# -------------------------
+# Helpers
+# -------------------------
+def _now_utc():
+    return datetime.now(timezone.utc)
 
 
 # -------------------------
@@ -8,18 +14,20 @@ from .db import get_connection
 # -------------------------
 def enqueue_file(file_path: str):
     """
-    Insere ficheiro novo com estado NEW
+    Insere ficheiro novo com estado NEW.
+    PostgreSQL: usa ON CONFLICT DO NOTHING.
     """
     with get_connection() as conn:
-        conn.execute(
-            """
-            INSERT OR IGNORE INTO file_queue (
-                file_path, status, detected_at
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO file_queue (file_path, status, detected_at)
+                VALUES (%s, 'NEW', %s)
+                ON CONFLICT (file_path) DO NOTHING
+                """,
+                (file_path, _now_utc()),
             )
-            VALUES (?, 'NEW', ?)
-            """,
-            (file_path, datetime.now().isoformat())
-        )
+        conn.commit()
 
 
 # -------------------------
@@ -27,43 +35,44 @@ def enqueue_file(file_path: str):
 # -------------------------
 def claim_next_file(worker_id: str):
     """
-    Reclama atomicamente UM ficheiro NEW
+    Reclama atomicamente UM ficheiro NEW.
+    PostgreSQL: SELECT ... FOR UPDATE SKIP LOCKED evita que 2 workers peguem no mesmo.
     """
-    try:
-        with get_connection() as conn:
-            conn.execute("BEGIN")
-
-            row = conn.execute(
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            # 1) escolhe 1 registo NEW e tranca só esse registo
+            cur.execute(
                 """
                 SELECT id, file_path
                 FROM file_queue
                 WHERE status = 'NEW'
                 ORDER BY detected_at
                 LIMIT 1
+                FOR UPDATE SKIP LOCKED
                 """
-            ).fetchone()
-
+            )
+            row = cur.fetchone()
             if not row:
-                conn.execute("COMMIT")
+                conn.commit()
                 return None
 
-            conn.execute(
+            # row é dict se usares RealDictCursor, então:
+            file_id = row["id"]
+            file_path = row["file_path"]
+
+            # 2) marca como PROCESSING
+            cur.execute(
                 """
                 UPDATE file_queue
                 SET status = 'PROCESSING',
-                    worker_id = ?
-                WHERE id = ?
+                    worker_id = %s
+                WHERE id = %s
                 """,
-                (worker_id, row["id"])
+                (worker_id, file_id),
             )
 
-            conn.execute("COMMIT")
-            return row["file_path"]
-
-    except sqlite3.OperationalError as e:
-        # evita crash por lock
-        print(f"[QUEUE] DB lock ao reclamar ficheiro: {e}")
-        return None
+        conn.commit()
+        return file_path
 
 
 # -------------------------
@@ -71,42 +80,50 @@ def claim_next_file(worker_id: str):
 # -------------------------
 def mark_done(file_path: str):
     with get_connection() as conn:
-        conn.execute(
-            """
-            UPDATE file_queue
-            SET status = 'DONE',
-                processed_at = ?
-            WHERE file_path = ?
-            """,
-            (datetime.now().isoformat(), file_path)
-        )
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE file_queue
+                SET status = 'DONE',
+                    processed_at = %s
+                WHERE file_path = %s
+                """,
+                (_now_utc(), file_path),
+            )
+        conn.commit()
+
+
+# -------------------------
+# Marcar como ERROR
+# -------------------------
+def mark_error(file_path: str):
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE file_queue
+                SET status = 'ERROR',
+                    processed_at = %s
+                WHERE file_path = %s
+                """,
+                (_now_utc(), file_path),
+            )
+        conn.commit()
+
 
 # -------------------------
 # Verificar se ficheiro já existe na fila
 # -------------------------
 def file_exists(file_path: str) -> bool:
     with get_connection() as conn:
-        row = conn.execute(
-            """
-            SELECT 1
-            FROM file_queue
-            WHERE file_path = ?
-            """,
-            (file_path,)
-        ).fetchone()
-
-        return row is not None
-# -------------------------
-# Marcar como ERROR
-# -------------------------
-def mark_error(file_path: str):
-    with get_connection() as conn:
-        conn.execute(
-            """
-            UPDATE file_queue
-            SET status = 'ERROR',
-                processed_at = ?
-            WHERE file_path = ?
-            """,
-            (datetime.now().isoformat(), file_path)
-        )
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT 1
+                FROM file_queue
+                WHERE file_path = %s
+                LIMIT 1
+                """,
+                (file_path,),
+            )
+            return cur.fetchone() is not None
