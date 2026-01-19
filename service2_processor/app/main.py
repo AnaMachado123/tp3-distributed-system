@@ -4,13 +4,14 @@ import threading
 from app.bucket.monitor import BucketMonitor
 from app.processor.worker import Worker
 from app.queue.db import init_db
+from app.http_server import start_http_server
 
 
 def start_monitor():
     monitor = BucketMonitor()
     while True:
         monitor.poll()
-        time.sleep(5)  # polling a cada 5s
+        time.sleep(5)
 
 
 def main():
@@ -19,7 +20,15 @@ def main():
     init_db()
     print("[SERVICE 2] DB inicializada")
 
-    # MONITOR (1 thread)
+    # HTTP server (para Render)
+    http_thread = threading.Thread(
+        target=start_http_server,
+        daemon=True
+    )
+    http_thread.start()
+    print("[SERVICE 2] HTTP server iniciado")
+
+    # Monitor
     monitor_thread = threading.Thread(
         target=start_monitor,
         daemon=True
@@ -27,12 +36,13 @@ def main():
     monitor_thread.start()
     print("[SERVICE 2] Monitor iniciado")
 
-    # WORKER ÚNICO (processamento sequencial)
-    worker = Worker(worker_id="worker-1")
-    worker.start()
-    print("[SERVICE 2] 1 worker ativo")
+    # Workers
+    for i in range(1):
+        w = Worker(worker_id=f"worker-{i+1}")
+        w.start()
 
-    # manter serviço vivo
+    print("[SERVICE 2] Worker ativo")
+
     while True:
         time.sleep(60)
 
