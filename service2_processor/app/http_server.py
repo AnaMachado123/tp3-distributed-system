@@ -11,4 +11,8 @@ def start_http_server():
     def health():
         return {"status": "ok"}, 200
 
+    @app.route("/wake-up", methods=["POST"])
+    def wake_up():
+        return {"status": "awake"}, 200
+
     app.run(host="0.0.0.0", port=8080)
