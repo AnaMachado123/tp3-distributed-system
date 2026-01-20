@@ -39,9 +39,10 @@ class SupabaseStorageClient:
 
         with open(local_path, "wb") as f:
             f.write(data)
+            f.flush()  # garante escrita completa no Windows
 
     # -------------------------
-    # UPLOAD (saída)
+    # UPLOAD (saída) — versão segura
     # -------------------------
     def upload_processed_file(self, local_path: str, remote_path: str):
         if not self.output_bucket:
@@ -49,11 +50,23 @@ class SupabaseStorageClient:
 
         if not os.path.exists(local_path):
             raise FileNotFoundError(local_path)
+
+        # 🔐 leitura completa do ficheiro antes do upload
         with open(local_path, "rb") as f:
-            self.client.storage.from_(self.output_bucket).upload(
-                remote_path,
-                f
-            )
+            file_bytes = f.read()
+
+        if not file_bytes:
+            raise RuntimeError("Ficheiro processado vazio")
+
+        # upload SEM manter handle aberto
+        self.client.storage.from_(self.output_bucket).upload(
+            remote_path,
+            file_bytes,
+            file_options={
+                "content-type": "text/csv",
+                "upsert": "false",
+            },
+        )
 
     # -------------------------
     # DELETE (entrada ou saída)
